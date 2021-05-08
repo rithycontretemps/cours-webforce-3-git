@@ -9,6 +9,9 @@
         p{
             color: red;
         }
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
         .green{
             border:1px solid green;
             width: 700px;
@@ -33,9 +36,37 @@
         .blue div p{
             color: blue;
         }
+        header{
+            display: flex;
+            justify-content: space-around;
+            background-color: cadetblue;
+        }
+        nav a{
+          text-decoration: none; 
+          color: red;
+          font-size: 20px;
+          margin: 0 10px;
+        }
+        .navbar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
     </style>
 </head>
 <body>
+    <header>
+        <div>
+            <h1>GIT TEST</h1>
+        </div>
+        <div class="navbar">
+            <nav>
+                <a href="#">Menu</a>
+                <a href="#">Infos</a>
+                <a href="#">Documents</a>
+            </nav>
+        </div>
+    </header>
     <p>Salut les loulous!!!!!!!</p>
     <div class="green">
         <h1>Super moment hein?!!</h1>
